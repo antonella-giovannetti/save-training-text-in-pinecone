@@ -1,0 +1,1 @@
+# save-training-text-in-pinecone
