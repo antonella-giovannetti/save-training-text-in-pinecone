@@ -1,0 +1,16 @@
+Ce code va permettre de récupérer les contenus des formations (uniquement le texte). Ces textes seront convertis en vecteurs grâce au modèle d'embedding, et seront enregistrés dans une base de données vectorielle Pinecone.
+
+- Récupération des formations sous format pptx depuis le serveur "Communication", les pptx sont déplacés dans le dossier data/pptx du projet
+- Extraction du texte des pptx
+- Choix du modèle d'embedding : "paraphrase-MiniLM-L6-v2", même modèle que pour le système rag des feedbacks 
+- Choix de la bonne stratégie de segmentation des données (chunk size, chunk overlap) : 
+
+
+
+
+
+
+
+
+
+
